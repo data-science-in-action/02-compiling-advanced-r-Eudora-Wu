@@ -12,6 +12,7 @@ Solution: Install packages in R using code: >install.packages("name of packages"
 2.Error: without an open graphics device
   Solution: Install software XQuartz.
 ![avatar](https://raw.githubusercontent.com/Eudora-Wu/markdownphotos/master/xquarts.png)
+
 3.Error: xelatex: command not found. See https://yihui.org/tinytex/r/#debugging for debugging tips. See _main.log for more info.
 Solution: Following the website in error massage, uses codes:
 >update.packages(ask = FALSE, checkBuilt = TRUE)
@@ -20,6 +21,7 @@ Solution: Following the website in error massage, uses codes:
 4.Error: tlmgr: command not found
 Solution: Install software TeX Live.
 ![avatar](https://raw.githubusercontent.com/Eudora-Wu/markdownphotos/master/texlive.png)
+
 5.Error: the directory /usr/local/texlive/2019/tlpkg/ is not writable.
 Solution: In Mac terminal use code:
 >sudo chown -R $(whoami) /usr/local/texlive/2019/tlpkg/
